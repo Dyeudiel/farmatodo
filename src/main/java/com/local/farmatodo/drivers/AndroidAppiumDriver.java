@@ -19,11 +19,11 @@ public class AndroidAppiumDriver {
 		lista.add(new AndroidAppiumDriver());
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		capabilities.setCapability("platformName", "android");
-		capabilities.setCapability("platformVersion", "");
-		capabilities.setCapability("deviceName", "");
-		capabilities.setCapability("udid", "");
-		capabilities.setCapability("appPackage", "");
-		capabilities.setCapability("appActivity", "");
+		capabilities.setCapability("platformVersion", "7.0");
+		capabilities.setCapability("deviceName", "RQ3002R6RJ");
+		capabilities.setCapability("udid", "RQ3002R6RJ");
+		capabilities.setCapability("appPackage", "com.farmatodo.app");
+		capabilities.setCapability("appActivity", "com.imaginamos.farmatodo.main.activity.SplashActivity");
 		capabilities.setCapability("noReset", true);
 		capabilities.setCapability("automationName", "UiAutomator2");
 		try {

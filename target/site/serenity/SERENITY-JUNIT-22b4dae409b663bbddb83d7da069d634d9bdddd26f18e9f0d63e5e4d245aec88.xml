@@ -1,1 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Title of your feature" skipped="1" tests="1" time="0.68" timestamp="2019-05-13 08:37:31"><testcase name="Registrar usuario plataforma Farmatodo"><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Title of your feature" skipped="0" tests="2" time="94.84" timestamp="2019-05-15 08:19:20"><testcase name="Registrar usuario plataforma Farmatodo"><failure message="Expected se registro el usaurio satisfactoriamente&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected se registro el usaurio satisfactoriamente
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>Expected se registro el usaurio satisfactoriamente
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;&#13;
+com.local.farmatodo.step_definitions.CrearUsuarioSteps.realizoElRegistroEnLaAplicación(CrearUsuarioSteps.java:44)&#13;
+✽.Realizo el registro en la aplicación(src/test/resources/features/crear_usuario.feature:6)&#13;
+</system-err></testcase><testcase name="Agregar Productos al carrito"/></testsuite>
